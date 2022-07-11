@@ -1,9 +1,8 @@
-
-
+// esri
 import Map from '@arcgis/core/Map';
 import MapView from '@arcgis/core/views/MapView';
-import Bookmark from '@arcgis/core/webmap/Bookmark';
 
+// deck.gl
 import {DeckLayer} from '@deck.gl/arcgis';
 import { ScatterplotLayer, ScatterplotLayerProps } from "@deck.gl/layers";
 
@@ -42,8 +41,6 @@ const loadMap = () => {
     center: [center.lng, center.lat], 
     zoom: 14
   });
-
-  const bookmark = new Bookmark()
 
   
 }
